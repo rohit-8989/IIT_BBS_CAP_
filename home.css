@@ -1,3 +1,42 @@
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 18px;
+    right: 20px;
+    cursor:pointer;
+    font-size:24px;
+    z-index: 10001;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+    display: none;
+    z-index: 10000;
+  }
+  #menu-toggle:checked + .menu-icon + #navbar {
+    display: flex;
+  }
+  #navbar a {
+    display: block;
+  }
+}
 
 * {
   margin: 0;
@@ -415,4 +454,5 @@ body {
     text-align: center;
   }
 }
+
 

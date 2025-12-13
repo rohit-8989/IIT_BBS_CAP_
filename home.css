@@ -53,6 +53,7 @@ body {
 #left-home{
     display: flex;
     align-items: center;
+    margin-left: 150px;
 }
 #image-home {
   width: 400px;

@@ -156,11 +156,11 @@ body {
   font-size: 20px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 /* ================= INCENTIVES ================= */
+
 .incentives-section {
   padding: 80px 10%;
-  background:#358e8e;  
+  background: #358e8e;
   text-align: center;
 }
 
@@ -170,18 +170,17 @@ body {
   letter-spacing: 2px;
 }
 
+/* DESKTOP GRID */
 .incentives-container {
   display: grid;
   grid-template-columns: repeat(2, 280px);
   gap: 35px;
   justify-content: center;
 }
-
 .incentives-container > div {
   background: #ffffff;
   padding: 30px 20px;
   border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,12 +196,37 @@ body {
   font-size: 16px;
   line-height: 1.4;
 }
-
 .incentive-item-3 {
-  grid-column: 1 / -1;  
+  grid-column: 1 / -1;
   justify-self: center;
   max-width: 280px;
+  width: 100%;
 }
+@media (max-width: 768px) {
+  .incentives-section {
+    padding: 60px 5%;
+  }
+
+  .incentives-section h2 {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+
+  .incentives-container {
+    grid-template-columns: 1fr;
+  }
+
+  .incentives-container > div {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .incentive-item-3 {
+    grid-column: auto;
+  }
+}
+
 
 /* ================= YOUR ROLES ================= */
 #maindiv1 {
@@ -396,3 +420,4 @@ body {
     text-align: center;
   }
 }
+

@@ -328,13 +328,31 @@ body {
   font-size: 14px;
   opacity: 0.8;
 }
-
-/* ================= RESPONSIVE ================= */
+/*========= RESPONSIVE ========*/
 @media (max-width: 768px) {
-  #campus {
-    font-size: 45px;
+  #left-home {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
   }
 
+  #image-home {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #About-home {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  #campus {
+    font-size: 42px;
+  }
+
+  #c2 {
+    font-size: 28px;
+  }
   .Different-Roles,
   .c1,
   #content-about {

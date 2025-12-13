@@ -199,7 +199,7 @@ body {
   max-width: 280px;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1054px) {
   .incentives-section {
     padding: 60px 5%;
   }
@@ -374,7 +374,7 @@ body {
   opacity: 0.8;
 }
 /*========= RESPONSIVE ========*/
-@media (max-width: 768px) {
+@media (max-width: 1054px) {
     #box{
         padding: 20px;
     }

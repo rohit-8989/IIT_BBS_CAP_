@@ -1,0 +1,344 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #222;
+}
+
+#navbar {
+  position: fixed;       
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #bdbcbc;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#navbar a:hover {
+  color: #8f0002;
+}
+
+#Pravaah {
+  margin-left: auto;
+  font-weight: 600;
+  color: #00a7a7;
+}
+
+/* ================= HOME ================= */
+.home {
+    background: #c7f4b7;
+  padding: 60px ;
+}
+#left-home{
+    display: flex;
+    align-items: center;
+}
+#image-home {
+  width: 400px;
+  margin-left: 200px;
+}
+
+#About-home {
+  max-width: 700px;
+}
+
+#campus {
+  font-size: 62px;
+  color: #00a7a7;
+}
+
+#c2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+#disc {
+  font-size: 16px;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #00a7a7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #8f0002;
+}
+
+/* ================= ABOUT ================= */
+#box {
+  max-width: 1000px;
+  margin: 80px auto;
+  background: rgb(101, 129, 195);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#content-about {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-about {
+    width: 400px;
+    height: 200px;
+  border-radius: 10px;
+}
+
+#head {
+  font-size: 42px;
+  color:black;
+  margin-bottom: 10px;
+}
+
+#para1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+/* ================= STATS ================= */
+.stats-section {
+  background: #5de5ae;
+  padding: 60px 10%;
+  text-align: center;
+  color: rgb(12, 13, 13);
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+.stat-item img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ================= INCENTIVES ================= */
+.incentives-section {
+  padding: 70px 10%;
+  background: rgb(89, 160, 122);
+  text-align: center;
+}
+
+.incentives-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.incentives-container div {
+  background: #f4fefe;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.incentives-container img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+/* ================= YOUR ROLES ================= */
+#maindiv1 {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #7fd2df;
+  border-radius: 10px;
+}
+
+#maindiv1 h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #a7000b;
+}
+
+.Different-Roles {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 60px;
+}
+
+.value h2 {
+  margin-bottom: 5px;
+}
+
+/* ================= TESTIMONIAL ================= */
+.testimonial {
+  background: #cdf3f3;
+  padding: 80px 10%;
+}
+
+#maindiv2 {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#photo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.c1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.quot {
+  width: 30px;
+}
+
+/* ================= FAQ ================= */
+.faq {
+  padding: 80px 10%;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eb10d1;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+/* ================= CONTACT ================= */
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #d7eeee;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #037272;
+  color: white;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.social,
+.quick-links {
+  margin-bottom: 30px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 15px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pravaah-logo {
+  width: 70px;
+}
+
+.footer > div:last-child {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  #campus {
+    font-size: 45px;
+  }
+
+  .Different-Roles,
+  .c1,
+  #content-about {
+    flex-direction: column;
+    text-align: center;
+  }
+}

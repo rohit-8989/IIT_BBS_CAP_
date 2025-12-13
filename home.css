@@ -201,7 +201,7 @@ body {
 .incentive-item-3 {
   grid-column: 1 / -1;  
   justify-self: center;
-  width: 280px;
+  max-width: 280px;
 }
 
 /* ================= YOUR ROLES ================= */
@@ -396,3 +396,4 @@ body {
     text-align: center;
   }
 }
+

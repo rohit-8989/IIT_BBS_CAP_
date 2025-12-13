@@ -96,11 +96,8 @@ body {
 
 /* ================= ABOUT ================= */
 #box {
-  max-width: 1000px;
-  margin: 80px auto;
   background: rgb(101, 129, 195);
   padding: 40px;
-  border-radius: 10px;
 }
 
 #content-about {
@@ -230,11 +227,8 @@ body {
 
 /* ================= YOUR ROLES ================= */
 #maindiv1 {
-  max-width: 1100px;
-  margin: 80px auto;
   padding: 40px;
   background: #7fd2df;
-  border-radius: 10px;
 }
 
 #maindiv1 h1 {
@@ -251,6 +245,7 @@ body {
 
 .icons {
   width: 60px;
+  border-radius: 10px;
 }
 
 .value h2 {
@@ -261,6 +256,7 @@ body {
 .testimonial {
   background: #cdf3f3;
   padding: 80px 10%;
+  margin: 0;
 }
 
 #maindiv2 {
@@ -381,7 +377,6 @@ body {
 @media (max-width: 768px) {
     #box{
         padding: 20px;
-        margin: 40px 15px;
     }
     #content-about{
         flex-direction: column;

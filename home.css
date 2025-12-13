@@ -395,5 +395,25 @@ body {
     flex-direction: column;
     text-align: center;
   }
+  .incentives-container {
+    grid-template-columns: 1fr;  
+    gap: 20px;
+  }
+
+  .incentives-container > div {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .incentive-item-3 {
+    grid-column: auto; 
+    width: 100%;
+  }
+
+  .incentives-section {
+    padding: 60px 5%;
+  }
 }
+
 

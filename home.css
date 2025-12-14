@@ -198,7 +198,7 @@ body {
   max-width: 280px;
   width: 100%;
 }
-@media (max-width: 1054px) {
+@media (max-width: 768px) {
   .incentives-section {
     padding: 60px 5%;
   }
@@ -373,7 +373,7 @@ body {
   opacity: 0.8;
 }
 /*========= RESPONSIVE ========*/
-@media (max-width: 1054px) {
+@media (max-width: 768px) {
     #box{
         padding: 20px;
     }
@@ -414,6 +414,52 @@ body {
     text-align: center;
   }
 }
+#menu-toggle {
+  display: none;
+}
 
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: auto;
+}
 
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+/*-----------menu-----------*/
+@media (max-width: 768px) {
 
+  #navbar {
+    justify-content: space-between;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links a {
+    padding: 12px 0;
+    font-size: 16px;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  #Pravaah {
+    margin-left: 0;
+  }
+}
